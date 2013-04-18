@@ -21,10 +21,6 @@
 #include <Windows.h>
 #include "resource.h"
 
-// probably should go in a shared header
-#define WM_PULSE_CURSOR (WM_USER + 0x131) 
-
-
 HCURSOR cursors[2];
 UINT windowMessage;
 BOOL currentCursor = 0;
@@ -91,11 +87,6 @@ extern "C" __declspec(dllexport) LRESULT CALLBACK PoeWndProc(int nCode, WPARAM w
 
 		SetTimer(msg->hwnd,PULSE_TIMER,100,TimerProc);
 		return TRUE;
-	}
-	
-	switch (msg->message) {
-		case WM_SETCURSOR:
-			return FALSE;
 	}
 
 	return CallNextHookEx(NULL,nCode,wParam,lParam);
