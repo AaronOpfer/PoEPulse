@@ -1,7 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "poepulse", "poepulse\poepulse.vcxproj", "{C20F0ECC-8063-4A20-ADB5-1A664629D604}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "poepulse_exe", "poepulse\poepulse.vcxproj", "{C20F0ECC-8063-4A20-ADB5-1A664629D604}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "poepmod", "poepmod\poepmod.vcxproj", "{A3847B95-ED52-42AA-A9B7-08F0A5AC3F00}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +15,10 @@ Global
 		{C20F0ECC-8063-4A20-ADB5-1A664629D604}.Debug|Win32.Build.0 = Debug|Win32
 		{C20F0ECC-8063-4A20-ADB5-1A664629D604}.Release|Win32.ActiveCfg = Release|Win32
 		{C20F0ECC-8063-4A20-ADB5-1A664629D604}.Release|Win32.Build.0 = Release|Win32
+		{A3847B95-ED52-42AA-A9B7-08F0A5AC3F00}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A3847B95-ED52-42AA-A9B7-08F0A5AC3F00}.Debug|Win32.Build.0 = Debug|Win32
+		{A3847B95-ED52-42AA-A9B7-08F0A5AC3F00}.Release|Win32.ActiveCfg = Release|Win32
+		{A3847B95-ED52-42AA-A9B7-08F0A5AC3F00}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
